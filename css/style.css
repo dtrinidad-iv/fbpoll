@@ -1,0 +1,124 @@
+html {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding:0;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body{
+margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    width: 100%;
+    height: 100%;
+    /*background: rgba(0,0,0,0.3)*/
+}
+header {
+    text-align: center;
+}
+header .logo {
+    position: relative;
+    margin:100px auto 20px;
+    width:250px;
+}
+h1 {
+    text-align: center;
+    width:100%;
+    font-size: 50px;
+    padding: 30px 0;
+    margin:0;
+    color:#fff;
+}
+#wrap{
+position: relative;
+margin: 0px auto;
+width: 1280px;
+height: 720px;
+}
+.tc {
+    text-align: center;
+    font-size: 10rem;
+    font-weight: bold;
+    color:white;
+}
+.wf {
+    width: auto;
+    height: 50px;
+}
+.wf img.illu {
+    width:80%;
+    display: block;
+    margin: 20px auto;
+    position: relative;
+}
+.wf img.emoji  {
+    width:34px;
+    display: inline-block;
+    margin-right:20px;
+}
+.wf {
+    width:auto;
+    /*text-decoration: underline;*/
+    /*float:left;*/
+    margin:0 auto;
+    /*border-bottom: 2px solid #eee;*/
+    /*border-radius: 8px;*/
+    position: relative;
+    text-align: center;
+}
+
+.no-pad { padding: 0; }
+.margin-bot { margin-bottom: 20px }
+.in-box {
+    border: 1px solid #337ab7;
+    border-radius: 5px;
+    padding: 0;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+    margin-bottom: 50px;
+}
+.in-box .in-form {
+    padding: 30px 50px;
+}
+.title-card {
+    width: 100%;
+    background-color: #337ab7;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.gen-token {
+    width:100% !important;
+    margin-bottom: 20px;
+}
+.vid-title {
+    width: 100% !important;
+    min-height: 32px !important;
+    margin-bottom: 20px;
+}
+.vid-desc {
+    width: 100% !important;
+    min-height: 96px !important;
+    margin-bottom: 20px;
+}
+.btn-back {
+    position: absolute;
+    top: 9px;
+    background-color: #d5d5d5;
+    color:black;
+    right: 65px;
+    font-size: 12px;
+}
+
+.main-vid iframe {
+   margin: auto;
+   display: block;
+}
+/*.btn {
+    margin-bottom: 30px;
+} */
